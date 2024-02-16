@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Summer Sale</title>
+    <title>Fotkits.com</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="Images/Summer 1.png" type="image/x-icon" />
     <link
@@ -45,7 +45,7 @@
           <div class="col-span-4">
             <!-- start Kitchenware  -->
             <div>
-              <h2 class="text-4xl  font-bold ml-4 pt-20">Kitchenware</h2>
+              <h2 class="text-4xl font-bold ml-4 pt-20">Kitchenware</h2>
               <div
                 class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center"
               >
@@ -457,13 +457,35 @@
                   Total: $<span id="total"></span>
                 </p>
                 <hr class="my-4" />
-                <button class="btn btn-wide bg-[#F11A7B] text-white">
-                  Make Purchase
-                </button>
+                <div class="make-purcase ">
+                  <button id="Btn-purcase"  onclick="my_modal_5.showModal()" class="btn btn-wide bg-[#F11A7B] text-white">
+                    Make Purchase
+                  </button>
+
+                  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <div class="modal-box">
+                      <h3 class="font-bold  text-6xl">congraculation..!</h3>
+                      <p class="py-4">"Congratulations on the amazing news! This is an incredible milestone and you deserve the spotlight to celebrate the moment."</p>
+                      <div class="modal-action">
+                        <form method="dialog">
+                          <!-- if there is a button in form, it will close the modal -->
+                          <button class="btn bg-pink-500 px-8">Go-Home</button>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+               
+
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="">
+        <!-- Open the modal using ID.showModal() method -->
+       
       </section>
     </main>
 
